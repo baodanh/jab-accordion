@@ -1,0 +1,67 @@
+/*
+google-green: #008744;
+google-blue: #0057e7;
+google-red: #d62d20;
+google-yellow: #ffa700;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Monospace", sans-serif;
+  background: #eee;
+  /*background: #ffa700;*/
+  /*overflow: hidden;*/
+}
+.container {
+  max-width: 690px;
+  margin: 0 auto;
+  /*background: #d62d20;*/
+}
+header {
+  text-align: center;
+  margin: 2rem;
+}
+header > h1 {
+  text-transform: uppercase;
+}
+header > .container > .tagline {
+  font-size: 1.25rem;
+}
+.accordion {
+  width: 620px;
+  margin: 0 auto;
+}
+.accordion__heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
+  font-size: 1.05rem;
+  letter-spacing: -.5px;
+}
+.accordion__heading:hover {
+  cursor: pointer;
+}
+.accordion__details {
+  max-height: 0;
+  overflow: hidden;
+  text-align: justify;
+  transition: .3s all ease;
+}
+.accordion__details > p {
+  padding: 1.2rem 0;
+  font-size: .9rem;
+  letter-spacing: -.5px;
+}
+
+
+.first-smartphone-img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 1rem auto;
+  border: 1px solid #000;
+}
